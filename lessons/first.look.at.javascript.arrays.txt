@@ -21,3 +21,66 @@ Arrays are like a container that holds values and or variables and their data.
    1. Structure Layer (HTML/HTML5)
    2. Presentation Layer (CSS/CSS3)
    3. Behavioral Layer (JavaScript/jQuery)
+
+   To interact with your application you'll build HTML/HTML5 structure syntax elements, style the data/data structure (field, pic, numerical data, or strings),
+
+   and then add some interactivity with jQuery, where arrays will be use to hold that temporary state of data. By Temporary, the variable may hold different data
+
+   for another use, calculation, or view by the same user. You'll have to really see how data comes into play to understand arrays and then functions to work on
+
+   your presentation layers of your web application. 
+
+
+ ######### Manipulating Arrays ###########
+
+ In most web applications, you'll need functions to make your "behavioral" layer of your web application fun, exciting, and or solve some problem for a person. 
+
+ Here we'll look at the most common array functions. 
+
+
+1. push()
+
+   --> this is an array function that will add in strings, or some data-type to the end of an array.
+
+   * in fact, you can create several arguements and in as many strings or data as you want:
+
+   i.e.  
+        Let's say: (1, 2, 3)
+
+        --> finish adding more characters 
+
+            -->  p.push(4,5,6,7,8)
+
+            -->> (1, 2, 3, 4, 5, 6, 7, 8) 
+
+2. unshift()
+
+	--> this is an array function that will add in new strings or data-type to the beginning of an array.
+
+	* same as in the push function, you can add in more arguements to shift new strings into the beginning.
+
+    i.e. 
+          Let's say: (Micheal Jackson: Beat It, Phil Colling: In The Air, Jarmiquai: Love Foolsphy, 50Cent: In The Club);
+
+          -->  finish adding in more music to your play list
+
+               --> p.unshift(LLCool J: I Need Love, Jodeci: Forever My Lady, Justin Beiber: Where Are You Now) 
+
+               -->> (LLCool J: I Need Love, Jodeci: Forever My Lady, Justin Beiber: Where Are You Now, Micheal Jackson: Beat It, Phil Colling: In The Air, Jarmiquai: Love Foolsphy, 50Cent: In The Club);
+
+
+Wrap Up:
+
+Here you can see in the second example more of an example of how an actual web application might work. To really understand arrays, you'll need to know that you'll have to use these function in combination to do:
+
+1. work on existing data
+
+2. also working with other data structures
+
+3. it's all about user experience and given functionality, as you move on to more advanced functions, you'll really need to think and plan first what your application is doing and then pre-think your functions
+   write them and then the abstraction of these concepts will start to fade into view!
+
+
+3. pop()
+
+4. shift()
