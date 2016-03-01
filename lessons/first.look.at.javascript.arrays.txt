@@ -1,0 +1,23 @@
+########## Basic JavaScript Concepts Arrays ############
+
+In this lesson we'll look at how to do string manipulation using arrays. 
+
+
+####### What Are Arrays ########
+
+Arrays are like a container that holds values and or variables and their data. 
+
+--> in rare cases (static web application) will you use actual values
+
+	--> in fact, when building web applications you'll be using a variable name of some sort to hold the value from:
+
+	     1. user input
+	     2. returned data from a database
+
+
+
+* This should give you a strong visual of what an array is. Just remember in application there are three layers:
+
+   1. Structure Layer (HTML/HTML5)
+   2. Presentation Layer (CSS/CSS3)
+   3. Behavioral Layer (JavaScript/jQuery)
